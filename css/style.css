@@ -1,0 +1,80 @@
+.header {
+  
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.bg-image{
+    
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../assets/hamburger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.bg-image h2{
+    margin-left: 20px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: rgb(89,89,89);
+    font-weight: 100;
+
+}
+
+.about{
+    
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container{
+    width: 47%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+
+}
+
+.about-img{
+    width: 47%;
+    background-image: url(../assets/tablesetting2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+.about-content{
+    width: 50%;
+    
+}
+
+.about-content h2{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.about-content h6{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+.about-content p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.second-p-tag{
+    color: rgb(110,110,110);
+}
